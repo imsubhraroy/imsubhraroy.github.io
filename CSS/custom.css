@@ -1,0 +1,161 @@
+.navbar-brand {
+    padding-left: 25px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+/* Logo  */
+.logo {
+    width: 60px;
+    height: 60px;
+    padding-right: 5px;
+}
+
+/* Navbar text align to right  */
+/* .navbar-nav {
+    padding-left: 65%;
+    font-weight: 500;
+} */
+
+/* navbar text color  */
+/* .navbar .container-fluid #navbarTogglerDemo01 .navbar-nav a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+} */
+
+/* navbar text hover color  */
+/* .navbar .container-fluid #navbarTogglerDemo01 .navbar-nav a:hover {
+    color: #F0AAB1;
+
+} */
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #F0AAB1;
+}
+.container .slider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* jumbotron customize  */
+.back-image {
+    background: url("../IMAGES/Banner1.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    border-radius: 0px;
+    /* margin-top: 4px; */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.back-image .myclass h1 {
+    font-size: 30px;
+}
+
+.back-image .myclass p {
+    color: black;
+    /* font-size: 20px; */
+}
+
+/* slider img width and height  */
+.container .slider .carousel .carousel-inner .carousel-item img {
+    width: 100%;
+    padding-top: 20px;
+    height: 500px;
+}
+
+/* About Services  */
+/* .forservice { */
+    /* background-color: #51d1d1; */
+    /* width: 80%; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center; */
+    /* margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin-bottom: 80px; */
+/* } */
+
+/* .forservice h3 {
+    margin-right: 10px;
+    text-align: center;
+} */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F0AAB1;
+}
+
+/* login page form width and position */
+.loginformwidth {
+    width: 1100px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+/* login page form login and Forget Password button display */
+.login {
+    display: flex;
+}
+
+/* login page form Forget Password button alignment and decoration */
+.forforgetpass {
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 230px;
+}
+
+/* login page form Forget Password button hover effect */
+.forforgetpass:hover {
+    color: blue;
+}
+
+/* login page form login button alignment */
+.forlgbtn {
+    margin-top: 40px;
+    margin-left: 100px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+
+/* Setting Margin and Alignment for Welcome to OSM Mobile View */
+@media only screen and (max-width: 600px) {
+    .myclass {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .back-image {
+        min-height: 40vh;
+    }
+
+    .container .slider .carousel .carousel-inner .carousel-item img {
+        height: 300px;
+    }
+
+    .service {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
